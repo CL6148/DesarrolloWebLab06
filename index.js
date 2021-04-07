@@ -1,3 +1,15 @@
 $(".agregar").click(function() {
-  $(".Lista").append('<li><p>Prueba LI</p></li>');
+  $(".Lista").append('
+    <div class="lis">
+      <li>Producto</li>
+      <p>
+        <button class="checar">
+          check
+        </button>
+        <button class="del">
+          delete
+        </button>
+      </p>
+    </div>
+  ');
 });
