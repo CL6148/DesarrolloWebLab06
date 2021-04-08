@@ -2,7 +2,7 @@ $(document).ready(funtion() {
   $(".agregar").click(function() {
     $(".Lista").append('
       <div class="lis">
-        <li>Producto</li>
+        <li>Item</li>
         <p>
           <button class="checar">
             check
