@@ -1,4 +1,4 @@
-$(Document).ready(funtion() {
+$(document).ready(funtion() {
   $(".agregar").click(function() {
     $(".Lista").append('
       <div class="lis">
